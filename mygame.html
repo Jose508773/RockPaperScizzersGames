@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="mygame.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors</h1>
+        
+        <div id="choices">
+            <button id="rock" class="choice">Rock</button>
+            <button id="paper" class="choice">Paper</button>
+            <button id="scissors" class="choice">Scissors</button>
+        </div>
+        
+        <div id="animation-container">
+            <div id="player-choice" class="animated-choice"></div>
+            <div id="vs">VS</div>
+            <div id="computer-choice" class="animated-choice"></div>
+        </div>
+
+        <div id="result-section"></div>
+        
+        <div id="score-section">
+            <div>Wins: <span id="wins">0</span></div>
+            <div>Losses: <span id="losses">0</span></div>
+            <div>Draws: <span id="draws">0</span></div>
+        </div>
+    </div>
+    <script src="mygame.js"></script>
+</body>
+</html>
